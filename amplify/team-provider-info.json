@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tekcapzuleweb-dev-123232-authRole",
+      "UnauthRoleArn": "arn:aws:iam::430666836152:role/amplify-tekcapzuleweb-dev-123232-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::430666836152:role/amplify-tekcapzuleweb-dev-123232-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tekcapzuleweb-dev-123232-deployment",
+      "UnauthRoleName": "amplify-tekcapzuleweb-dev-123232-unauthRole",
+      "StackName": "amplify-tekcapzuleweb-dev-123232",
+      "StackId": "arn:aws:cloudformation:us-east-1:430666836152:stack/amplify-tekcapzuleweb-dev-123232/1c0ecd80-fa72-11eb-bae4-1226ff6bb471",
+      "AmplifyAppId": "d29toaz6q8vial"
+    },
+    "categories": {
+      "auth": {
+        "tekcapzuleweb6edfc117": {}
+      }
+    }
+  }
+}

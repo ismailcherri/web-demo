@@ -1,0 +1,96 @@
+<div class="products-page">
+  <app-spinner></app-spinner>
+  <!-- ======= Hero Banner Section ======= -->
+  <div class="container">
+    <div id="breadcrumbs" class="container breadcrumbs">
+      <span>
+        <span><a href="/">Home</a></span>
+        <img src="../../assets/images/breadcrumb_arrow.png" />
+        <span class="breadcrumb_last" aria-current="page">Products</span>
+      </span>
+    </div>
+  </div>
+
+  <section class="page-banner products-banner-bg">
+    <div class="inner row">
+      <div
+        class="col-xl-5 col-lg-6 col-sm-12 pt-3 pt-lg-0 order-1 order-lg-1 d-flex flex-column justify-content-center banner-content px-0"
+      >
+        <h1 class="text-white animate__animated animate__fadeInUp delay-1">
+          Learn. Anytime. Anywhere.
+        </h1>
+        <h4 class="text-white content-sub-text animate__animated animate__fadeInUp delay-2">
+          Transform the way you learn and teach with our modern LMS platform.
+        </h4>
+        <button
+          mat-raised-button
+          class="button primary mt-2 animate__animated animate__fadeInUp delay-3"
+        >
+          Explore
+        </button>
+      </div>
+      <div class="banner-rh-section order-2 order-lg-2">
+        <img
+          src="assets/images/banner/products.png"
+          class="img-fluid animate__animated animate__fadeIn delay-1"
+          alt="products"
+        />
+      </div>
+    </div>
+  </section>
+  <div class="inner animate__animated animate__fadeInUp delay-2">
+    <!-- ======= Our Solution ======= -->
+    <section>
+      <!-- Sec 1 -->
+      <div class="inner row align-items-center">
+        <div class="col-lg-12">
+          <h3>Our Solutions</h3>
+          <p class="content-sub-text">
+            Our SaaS hosted LMS platform is designed to revolutionarize the way acadamies,
+            corporates and colleges approach learning. With a user friendly interface, personalized
+            learning paths and realtime analytics, our platform empowers educators to deliver
+            impactful learning experiences. Our AI powered course authoring tool helps educators to
+            create courses in minutes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <div class="row align-items-center">
+        <div class="col-lg-12 mobile-display">
+          <div class="mission-block">
+            <div class="mission-role animate__animated animate__fadeInUp delay-2">
+              <img src="assets/images/home/career.png" class="img-fluid" alt="career" />
+              <div class="vision-role">
+                <a href="javascript:void(0)" (click)="onKnowMore()" class="know-more">Know More</a>
+              </div>
+            </div>
+            <div class="mission-role animate__animated animate__fadeInUp delay-3">
+              <img src="assets/images/home/lms.png" class="img-fluid lms" alt="lms" />
+              <div class="vision-role">
+                <a href="javascript:void(0)" (click)="onKnowMore()" class="know-more">Know More</a>
+              </div>
+            </div>
+            <div class="mission-role animate__animated animate__fadeInUp delay-4">
+              <img src="assets/images/home/campus.png" class="img-fluid" alt="campus" />
+              <div class="vision-role">
+                <a href="javascript:void(0)" (click)="onKnowMore()" class="know-more">Know More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="coll-form-bg" class="animate__animated animate__fadeInUp delay-5">
+    <section class="form-bg">
+      <app-collaborate-form [pageType]="'whatWeDo'"></app-collaborate-form>
+    </section>
+  </div>
+</div>
+
+<app-login-required
+  [isDialogVisible]="isLoginRequiredDialogShown"
+  (dialogClosed)="hideLoginRequiredDialog()"
+></app-login-required>

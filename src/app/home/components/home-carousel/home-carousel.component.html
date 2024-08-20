@@ -1,0 +1,103 @@
+<div id="heroBanner" class="carousel slide" data-ride="carousel" data-interval="2500">
+  <ul class="carousel-indicators">
+    <li data-target="#heroBanner" data-slide-to="0" class="active"></li>
+    <li data-target="#heroBanner" data-slide-to="1"></li>
+    <li data-target="#heroBanner" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-caption">
+        <section class="d-flex align-items-center">
+          <div class="container">
+            <div class="row justify-content-center d-flex">
+              <div
+                class="col-xl-6 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center sliderContent"
+              >
+                <h1>Your Trusted AI LEARNING Partner</h1>
+                <p class="hero-text">
+                  Explore a world of possibilities in artificial intelligence with our curated
+                  content, videos, courses, insights, and marketplace for enthusiasts.
+                </p>
+                <div>
+                  <button mat-raised-button class="button primary" (click)="gotoCapsulesPage()">
+                    Explore
+                  </button>
+                  <button
+                    mat-stroked-button
+                    class="button secondary"
+                    (click)="subscribeClicked.emit()"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+                <div class="follow-us">
+                  <a href="https://twitter.com/app" target="__blank" aria-label="Twitter">
+                    <img src="/assets/images/twitter.svg" alt="twitter icon" />#App</a
+                  >
+                </div>
+              </div>
+              <div class="col-xl-5 col-lg-6 order-1 order-lg-2 hero-img">
+                <img src="/assets/images/hero-slide-3.svg" class="img-fluid" alt="slide 1" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <section class="d-flex align-items-center">
+          <div class="container">
+            <div class="row justify-content-center d-flex">
+              <div
+                class="col-xl-6 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center sliderContent"
+              >
+                <h1>Uncover the latest in AI!</h1>
+                <p class="hero-text">
+                  With our diverse range of content, there's always something new to discover!
+                  <br />
+                  From books to videos and everything in between, we've got you covered!
+                </p>
+                <div>
+                  <button mat-raised-button class="button primary" (click)="gotoCapsulesPage()">
+                    Explore
+                  </button>
+                </div>
+              </div>
+              <div class="col-xl-5 col-lg-6 order-1 order-lg-2 hero-img">
+                <img src="/assets/images/hero-slide-2.png" class="img-fluid" alt="slide 2" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <section class="d-flex align-items-center">
+          <div class="container">
+            <div class="row justify-content-center d-flex">
+              <div
+                class="col-xl-6 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center sliderContent"
+              >
+                <h1>The AI GOLD RUSH is here!</h1>
+                <p class="hero-text">
+                  Now is your chance to be a part of it! <br />
+                  Don't miss out, join us to stay ahead of the curve!
+                </p>
+                <div>
+                  <button mat-raised-button class="button primary" (click)="gotoCapsulesPage()">
+                    Explore
+                  </button>
+                </div>
+              </div>
+              <div class="col-xl-5 col-lg-6 order-1 order-lg-2 hero-img">
+                <img src="/assets/images/hero-slide-1.svg" class="img-fluid" alt="slide 3" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>

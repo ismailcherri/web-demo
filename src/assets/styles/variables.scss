@@ -1,0 +1,77 @@
+
+$primary-color: #1A73E8;
+$secondary-color: #434343;
+$black: #000;
+$white: #fff;
+$heading-color: #090909;
+$section-bg: #f8f8f8;
+$blue: #1d4c9e;
+$grey: #484848;
+$skeleton-grey: #dddbdd;
+$corporate-color: #1A73E8;
+$black-currant: #07182F;
+$banner-text: #2B2B2B;
+$grey-bg: #E6E6E6;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+$primary-font-regular: 'Work Sans', sans-serif;
+$primary-font-light: 'Work Sans', sans-serif;
+$primary-font-medium: 'Work Sans', sans-serif;
+$primary-font-bold: 'Work Sans', sans-serif;
+
+
+body {
+  font-family: $primary-font-regular;
+  font-size: 16px;
+  line-height: 28px;
+  color: $black;
+}
+p {
+  font-family: $primary-font-light;
+  font-size: 16px;
+  font-weight: 300;
+  color: $black;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 28px;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 50px;
+}
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+$subheading-font: PROXIMANOVASEMIBOLD;
+$subheading-font-url: '../fonts/Proxima-Nova-Semibold.ttf';
+@font-face {
+  font-family: $subheading-font;
+  src: url($subheading-font-url);
+}
+
+

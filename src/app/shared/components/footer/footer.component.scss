@@ -1,0 +1,114 @@
+@import '../../.././../assets/styles/variables.scss';
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  color: $white;
+  font-size: 13px;
+  background-size: cover;
+  font-family: $primary-font-medium;
+  box-shadow: 0 -5px 10px rgb(0 0 0 / 5%);
+  background: $black-currant;
+  @media only screen and (max-width: 990px) {
+    padding: 30px;
+  }
+  @media only screen and (max-width: 767) {
+    padding: 15px;
+  }
+  .footer-top {
+    padding: 35px 0 0;
+    position: relative;
+    .footer-logo {
+      width: 109px;
+      height: 21px;
+    }
+    .footer-links {
+      line-height: 25px;
+      color: #979EC1;
+      //padding-left: 0;
+      @media only screen and (max-width: 767) {
+        margin-bottom: 10px;
+      }
+      ul {
+        list-style: none;
+        padding: 7px 0 0;
+        margin: 0;
+        &:first-child li a{
+          color: $white;
+        }
+        li a {
+          color: #979EC1;
+          text-decoration: none;
+
+          &:hover, &.active {
+            color: $primary-color;
+          }
+        }
+      }
+      h6 {
+        color: $white;
+        font-family: $primary-font-medium;
+        font-size: 13px;
+        margin-top: 12px;
+      }
+    }
+    .g-play-img {
+      width: 138px;
+      height: 42px;
+    }
+  }
+  .social-links {
+    display: flex;
+    a {
+      padding-right: 20px;
+    }
+  }
+}
+.g-play-img {
+  width: 138px;
+  height: 42px;
+}
+
+.copyright, .copyright a {
+  padding: 30px 0;
+  color: #979EC1;
+  font-size: 13px;
+  font-family: $primary-font-medium;
+  a {
+    padding: 0 22px;
+    text-decoration: none;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+.social-links {
+  a {
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-links {
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding-left: 0;
+    a {
+      padding-right: 14px !important;
+    }
+  }
+  .copyright {
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    display: block !important;
+    text-align: center;
+  }
+  .footer-top {
+    padding-top: 0 !important;
+    .row {
+      display: block;
+    }
+    .footer-logo {
+      width: 100%;
+    }
+  }
+}

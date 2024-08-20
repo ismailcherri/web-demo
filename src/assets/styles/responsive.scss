@@ -1,0 +1,752 @@
+@media only screen and (max-width: 990px) {
+  .search-box {
+    background: 0 none !important;
+    padding: 15px 35px!important;
+    position: inherit !important;
+
+    input {
+      top: 0;
+      border: 1px solid transparent;
+    border-radius: 0px !important;
+    font-size: 13px !important;
+    color: $banner-text;
+    min-width: 220px;
+    height: 40px;
+    background-color: $white !important;
+    border-bottom: 1px solid $primary-color !important;
+    }
+    button.search-btn {
+      right: 50px !important;
+    }
+
+  }
+  .capsule-card-container {
+    width: 390px !important;
+    height: 590px !important;
+  }
+  // h1 {
+  //   font-size: 24px;
+  //   font-weight: 600;
+  //   line-height: 30px !important;
+  // }
+  .section-title h2,
+  h2 {
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .signin {
+    height: 560px !important;
+    margin-top: 90px;
+  }
+  .capsules-page,
+  .topics-page,
+  .create-capsule-page {
+    .card-section {
+      margin: 0 10px;
+      padding-top: 2rem !important;
+      margin-bottom: 0px !important;
+      justify-content: center !important;
+      .carousel-card {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        height: auto;
+        &:hover {
+          transform: none !important;
+        }
+      }
+    }
+  }
+  .mat-tab-links {
+    .w-50 {
+      width: auto !important;
+    }
+  }
+  .topics-card {
+    margin: 0 0 20px !important;
+    &:hover {
+      transform: none !important;
+    }
+  }
+  .onOverlayContent {
+    position: absolute;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8);
+    height: 277px;
+  }
+  .community-page,
+  .aboutus-page {
+    p {
+      font-size: 18px !important;
+      line-height: 22px !important;
+    }
+    .tech-repo {
+      background-position: center !important;
+      .inline-points {
+        left: 0 !important;
+        top: 25% !important;
+        ul > li {
+          margin-left: 0 !important;
+        }
+      }
+    }
+  }
+  .community-page {
+    .part-2 {
+      padding-top: 30px !important;
+    }
+    .part-3,
+    .part-4 {
+      padding: 30px 0 !important;
+    }
+  }
+  input,
+  textarea {
+    font-size: 16px !important;
+  }
+  .admin-page {
+    &.p-main {
+      padding: 90px 30px 30px !important;
+    }
+    .mat-tab-links {
+      max-width: 1600px !important;
+    }
+    h1 {
+      font-size: 22px !important;
+    }
+
+    .resp-btn {
+      justify-content: center;
+      display: flex;
+      padding-top: 20px;
+      .action-btn {
+        margin-right: 20px;
+      }
+    }
+  }
+  .create-topic-form {
+    display: contents !important;
+    .column {
+      width: 100% !important;
+    }
+  }
+  .badge-danger {
+    top: 17px !important;
+    left: 105px !important;
+    border: 1px solid $white;
+  }
+  .nav-menu .active > a {
+    color: $white!important;
+  }
+  .dropdown {
+    padding-bottom: 10px !important;
+  }
+  .back-link {
+    font-size: 14px !important;
+    display: block !important;
+    span {
+      &:first-child{
+        margin-left: 0 !important;
+        display: block;
+      }
+      &:nth-child(2) {
+        // margin-left: 0 !important;
+      }
+    }
+    a {
+      &::after{
+        margin-top: 6px;
+      }
+    }
+  }
+  .aboutus-page, .community-page {
+  .tech-learning {
+      padding: 40px 0 !important;
+    }
+   h2 {
+    margin-bottom: 0 !important;
+   }
+  }
+  #header .header-align {
+    height: 75px !important;
+    padding: 0;
+    display: inline-block !important;
+  }
+  .navbar-toggler-icon {
+    width: 25px;
+    height: 30px;
+    background: 100%/100% 100% no-repeat !important ;
+  }
+  .contribute-page {
+    .contribute-bg {
+      padding-bottom: 40px !important;
+    }
+
+    .contribute-bg, .contribute-form-bg {
+      height: auto !important;
+    }
+  }
+  .capsule-top {
+    padding-top: 0 !important;
+  }
+  .follow-us {
+    margin-top: 20px !important;
+  }
+  h1{
+    padding-bottom: 0 !important;
+  }
+  .tags {
+    max-height: 480px !important;
+  }
+  .topic-apply {
+    text-align: center !important;
+  }
+  .flip-card .key-points {
+    height: 282px !important;
+  }
+  .modal.show .modal-dialog {
+    margin-top: 77px!important;
+  }
+  .button.primary, button.tertiary {
+    padding: 5px 20px;
+    font-size: 15px;
+    height: 45px !important;
+    width: 175px !important;
+    // height: auto !important;
+    // width: auto !important;
+  }
+  .button.primary-outline {
+    height: 45px !important;
+  }
+
+  .p-multiselect-panel {
+    border-radius: 0 !important;
+  }
+  .p-multiselect-items-wrapper {
+    max-height: 500px !important;
+  }
+  .tags-section {
+    height: auto!important;
+    padding: 0 20px;
+    background: linear-gradient(270deg,#6C2B67 0%,#202A5F 100%) !important;
+    margin-top: 0 !important;
+    .selected-topic-list {
+        display: block !important;
+    }
+    ul.topics-list li {
+      // margin-bottom: 13px !important;
+    }
+  }
+  .feed-cards {
+    position: inherit !important;
+  }
+  .pi-times-circle:before {
+    font-size: 25px;
+  }
+  .banner-content {
+    // align-items: center;
+    // text-align: center;
+    padding: 0px 15px!important;
+    margin-top: 40px;
+    justify-content: start !important;
+  }
+  .space-fill {
+    padding: 0 1rem !important;
+  }
+  .tekbyte-details-page {
+
+  .tekbyte-banner {
+    height: auto !important;
+    padding-bottom: 20px !important;
+  }
+  .tekbyte-details .business-modal .card {
+    max-width: 100%;
+    margin: 0px 20px 50px !important
+    }
+  }
+  .inner {
+    padding: 20px 5px 0 !important;
+  }
+  .home-banner {
+    margin-top: 75px !important;
+    margin-bottom: 20px !important;
+  }
+  .skill-studio-page.p-main {
+    padding-top: 77px !important;
+  }
+  .detail-page  {
+    margin-top: 77px !important;
+  }
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .feeds-blog-container .feeds-img {
+    min-width: auto !important;
+    height: auto !important;
+  }
+  .feeds-blog-container .feeds-img, .web-url, .short-desc {
+    margin-left: 0 !important;
+  }
+  .short-desc {
+    padding: 5px 10px 0 !important;
+    p {
+      margin-bottom: 5px !important;
+    }
+  }
+  .contact-form.section-bg {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+  .aboutus-page > section
+  {
+    padding-bottom: 0!important;
+  }
+  .aboutus-page .about-banner {
+    margin-bottom: 0 !important;
+  }
+  // .p-dialog {
+  //   width: 86vw !important;
+  // }
+
+  .launchingsoon-content {
+    position: relative !important;
+    left: 0 !important;
+  }
+  .navbar {
+    justify-content: flex-start !important;
+  }
+  .skillstudio-inner, .subscribe.section-bg
+  {
+    .row {
+      padding: 20px 10px;
+    }
+    .mr-5 {
+    margin-right: 0 !important;
+  }
+  .pl-5 {
+    padding-left: 1rem !important;
+  }
+  }
+  .home-page h2 {
+    font-size: 24px !important;
+  }
+}
+@media only screen and (width: 1024px) {
+  .dropdown-content {
+    left: -349px !important;
+    max-width: 960px !important;
+    .px-5 {
+      padding: 0 !important;
+    }
+  }
+  .col-card {
+    justify-content: center!important;
+  }
+  .nav-menu > ul > li {
+    padding: 10px 3rem !important;
+  }
+  .capsule-card-container {
+    width: 410px !important;
+    margin-right: 20px;
+  }
+}
+@media only screen and (width: 768px) {
+  .mobile-app .app-content {
+    display: flex !important;
+}
+.git-hub-sec {
+  display: flex;
+  width: 100%;
+  align-items: center !important;
+  .text-right {
+    text-align: center !important;
+  }
+}
+.copyright {
+  text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+    line-height: 30px;
+    padding-top: 0;
+}
+
+  h1{
+    line-height: 44px !important;
+    font-size: 30px !important;
+  }
+  .banner-text {
+    margin-top: 0 !important;
+    text-align: center;
+  }
+  .carousel-caption,
+  .sliderContent {
+    position: initial !important;
+    .hero-img {
+      width: 450px;
+      justify-content: center;
+      padding-bottom: 20px;
+      display: flex;
+    }
+  }
+  .topics-card {
+    margin: 8px !important;
+  }
+  .capsule-card-container {
+    width: 350px !important;
+    height: 590px !important;
+  }
+  .carousel .carousel-inner .carousel-item {
+    height: 535px !important;
+    }
+  .p-carousel .p-carousel-content .p-carousel-prev, .p-carousel .p-carousel-content .p-carousel-next {
+    margin: 0 !important;
+    display: none;
+    }
+    .flip-card .key-points {
+      height: 337px !important;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 280px) {
+  .mobile-app .app-content {
+    display: block !important;
+    line-height: 0;
+  }
+  .aside-block {
+    display: flex;
+  }
+  .banner-title {
+    justify-content: center;
+  }
+  .aihub-banner {
+    &.interview-prep {
+      background: #f1f7fb url('../images/interview-banner-mob.png') 0px 76px no-repeat !important;
+      background-size: cover;
+    }
+  }
+  .mob-carousel {
+    margin: 0 auto;
+    display: block !important;
+    .p-carousel-items-container {
+      display: block !important;
+    }
+    .p-carousel-indicators.p-reset {
+      display: none;
+    }
+  }
+  .banner-text {
+    text-align: center !important;
+  }
+  .description {
+    display: block !important;
+    max-height: fit-content !important;
+  }
+  .subscribe-btn {
+    position: relative !important;
+    margin-top: 10px;
+  }
+  .subscibeSection-row {
+    flex-wrap: wrap;
+  }
+  .weekly-digest-banner {
+    height: auto !important;
+    padding-bottom: 30px;
+  }
+  .video-container {
+    height: 320px !important;
+  }
+  .video_thumb {
+    margin-bottom: 20px;
+  }
+  .prod-mob {
+    padding: 0;
+    margin-right: 0 !important;
+    text-align: center !important;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row-mobile {
+    display: block !important;
+  }
+  .mob-hide {
+    display: none !important;
+  }
+  .mob-mx {
+    margin: 0 20px;
+  }
+  .mob-mb-2 {
+    margin-bottom: 20px;
+  }
+  .mob-banner-txt {
+    font-size: 22px !important;
+    background: #00000040;
+    width: 60%;
+    margin-top: -15px;
+  }
+  .mob-interview-banner {
+    font-size: 22px !important;
+    top: -95px;
+    position: relative;
+    line-height: 30px;
+    height: 102%;
+  }
+  .appstore-tile {
+    width: 100% !important;
+  }
+  .w-50, .feeds-blog-container .main-container {
+    width: 100%  !important;
+  }
+  .sm-view {
+    display: block !important;
+    .hub-tiles {
+      width: 100%;
+    }
+  }
+  .card-wrapper {
+    padding-bottom: 0 !important;
+  }
+  .carousel-card
+  .content .title {
+    min-height: inherit !important;
+    margin-bottom: 20px;
+  }
+  .aboutus-page {
+    .tech-learning {
+      padding-top: 0px !important;
+    }
+    .p-bottom-150 {
+      padding-bottom: 30px !important;
+    }
+  }
+  //  .carousel-card {
+  //   .content {
+  //     .description {
+  //       display: block !important;
+  //       max-height: fit-content !important;
+  //     }
+  //   }
+  //  }
+
+
+  .hero-img {
+    text-align: center;
+    display: initial !important;
+    height: inherit !important;
+  }
+  .community-page
+  {
+    .tech-repo {
+      height: 390px !important;
+    }
+  }
+  // /AI Hub Search container/
+  .hub-search {
+    display: block !important;
+  }
+
+  .hub-register {
+    text-align: center !important;
+    margin-top: 20px;
+  }
+  .video-library-card, .research-papers-card {
+    margin-bottom: 20px !important;
+    height: auto !important;
+    width: auto !important;
+    margin: 10px 0px !important;
+    .content {
+      .description {
+        height: auto !important;
+      }
+     }
+  }
+
+  /*********** Details Page **************/
+    .details-banner {
+      height: auto !important;
+      // padding: 15px 0 0 15px !important
+    }
+    .dot-pattern {
+      background: url('../images/community/dot-pattern-blue.svg') 192px 95px no-repeat !important;
+      background-size: 100% !important;
+  }
+    .subscribe-block {
+      width: 100%;
+      margin: 0 20px 0px 20px !important;
+    }
+    .details-body {
+      display: block !important;
+    }
+    .know-more-sec {
+      border-radius: 20px;
+      padding: 20px !important;
+      text-align: center;
+      img {
+        margin: 0 0 20px 0 !important;
+      }
+      .high-lights {
+        display: block !important;
+      }
+    }
+    .tekbyte-details-page
+    .tekbyte-details
+    .business-modal
+    .card, .llm-hub-bg {
+      height: auto !important;
+      max-width: fit-content !important
+    }
+    .mob-mr-0 {
+      margin-right: 0 !important;
+    }
+    .back-link {
+      margin: 0!important;
+      padding: 10px 0!important;
+    }
+    .digest-card {
+      max-height: fit-content !important;
+      margin-right: 0!important;
+
+      .content-top {
+        height: auto !important;
+      }
+    }
+    .top-navigation {
+      // height: auto !important;
+      height: 40px !important;
+      position: absolute !important;
+    }
+    .footer-links {
+      margin: 0 0 24px;
+      max-width: 50%;
+      width: 100%;
+      padding: 0;
+
+    }
+    .social-links {
+      display: flex;
+      padding: 0;
+    }
+    .copyright {
+      justify-content: center !important;
+      line-height: 30px;
+      a {
+        padding: 0 8px !important;
+      }
+    }
+}
+
+
+/*******iPhone 10 mobile responsive******/
+@media only screen and (min-device-width: 375px)and (max-device-width: 414px) {
+
+.capsule-card-container {
+  width: 333px !important;
+  height: 540px !important;
+  margin-right: 0 !important;
+}
+.home-page {
+  .capsule-card-container {
+    width: 99% !important;
+    align-items: center;
+  }
+  .discussion-bg  {
+    padding-top: 20px !important;
+    // margin-bottom: 20px !important;
+  }
+  .social-share-container, .insight-container {
+    padding-top: 20px !important;
+
+  }
+}
+.p-carousel .p-carousel-content .p-carousel-prev, .p-carousel .p-carousel-content .p-carousel-next {
+  margin: 0 !important;
+  display: none;
+}
+.capsule-card .card-content {
+  padding: 0 15px !important;
+}
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  width: 1rem!important;
+}
+.contribute-page .button {
+  width: 115px !important;
+  height: 45px;
+}
+.carousel .carousel-inner .carousel-item {
+  height: 525px !important;
+}
+}
+
+@media only screen and (width: 375px) {
+  .capsule-card-container {
+    width: 330px !important;
+  }
+}
+
+
+@media only screen and (width: 1440px) {
+  .contribute-page .formuser-icon {
+    right: 0 !important;
+  }
+}
+@media only screen and (width: 1536px) {
+  .contribute-page .formuser-icon {
+    right: 8% !important;
+  }
+  .carousel-card {
+    height: 440px;
+  }
+}
+@media not all and (min-resolution:.001dpcm) {
+  // .capsule-filter {
+  //   right: 21% !important;
+  // }
+}
+
+
+/**************Skil Studio Responsive start****************/
+.skill-studio-page {
+  .skill-studio-bg {
+    padding-bottom: 0 !important;
+  }
+  &.p-main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .banner-img {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/**************Skil Studio Responsive End****************/
+
+@media screen and (max-width: 1100px)
+{
+  #pr_id_2 .p-carousel-item {
+      display: flex;
+      justify-content: center;
+  }
+}
+
+
+/*********iPad Media queries******/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+ .mob-hide {
+  display: none !important;
+ }
+ .mobile-app .app-content {
+  display: flex !important;
+}
+ }
+
+ @media screen and (width: 1366px) {
+  .colby3 {
+    gap: 38px !important;
+  }
+}
