@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LlmHubComponent } from './llm-hub.component';
+import { SharedModule } from '@app/shared';
 
 describe('LlmHubComponent', () => {
   let component: LlmHubComponent;
@@ -9,6 +10,7 @@ describe('LlmHubComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [LlmHubComponent],
+      imports: [SharedModule],
     }).compileComponents();
   });
 

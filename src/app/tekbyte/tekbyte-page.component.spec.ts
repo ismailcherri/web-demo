@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TekbytePageComponent } from './tekbyte-page.component';
+import { AppRoutingModule } from '@app/app-routing.module';
 
 describe('TopicsPageComponent', () => {
   let component: TekbytePageComponent;
@@ -8,6 +9,7 @@ describe('TopicsPageComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [AppRoutingModule],
       declarations: [TekbytePageComponent],
     }).compileComponents();
   });

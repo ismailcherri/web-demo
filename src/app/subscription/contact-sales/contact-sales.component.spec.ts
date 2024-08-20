@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ContactSalesComponent } from './contact-sales.component';
+import { SharedModule } from '@app/shared';
 
 describe('ContactSalesComponent', () => {
   let component: ContactSalesComponent;
@@ -8,9 +9,9 @@ describe('ContactSalesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContactSalesComponent ]
-    })
-    .compileComponents();
+      declarations: [ContactSalesComponent],
+      imports: [SharedModule],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(ContactSalesComponent);
     component = fixture.componentInstance;

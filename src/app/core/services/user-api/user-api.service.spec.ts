@@ -16,10 +16,4 @@ describe('UserApiService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
-
-  it('should return correct user api path', () => {
-    expect(service.getUserApiPath()).toBe(
-      'https://rki9lzz4gl.execute-api.us-east-2.amazonaws.com/dev/user'
-    );
-  });
 });

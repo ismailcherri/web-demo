@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TopicCardComponent } from './topic-card.component';
+import { SharedModule } from '@app/shared/shared.module';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('TopicCardComponent', () => {
   let component: TopicCardComponent;
@@ -9,6 +11,7 @@ describe('TopicCardComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [TopicCardComponent],
+      imports: [SharedModule, HttpClientModule],
     }).compileComponents();
   });
 

@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FaqPageComponent } from './faq-page.component';
+import { SharedModule } from '@app/shared';
 
 describe('FaqPageComponent', () => {
   let component: FaqPageComponent;
@@ -8,9 +9,9 @@ describe('FaqPageComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FaqPageComponent ]
-    })
-    .compileComponents();
+      imports: [SharedModule],
+      declarations: [FaqPageComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(FaqPageComponent);
     component = fixture.componentInstance;

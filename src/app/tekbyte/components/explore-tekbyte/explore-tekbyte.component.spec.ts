@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ExploreTekbyteComponent } from './explore-tekbyte.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { SharedModule } from '@app/shared';
 
 describe('ExploreTekbyteComponent', () => {
   let component: ExploreTekbyteComponent;
@@ -9,6 +11,7 @@ describe('ExploreTekbyteComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ExploreTekbyteComponent],
+      imports: [HttpClientTestingModule, SharedModule],
     }).compileComponents();
   });
 

@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { WeeklyDigestComponent } from './weekly-digest.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from '@app/shared';
 
 describe('WeeklyDigestComponent', () => {
   let component: WeeklyDigestComponent;
@@ -9,6 +11,7 @@ describe('WeeklyDigestComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [WeeklyDigestComponent],
+      imports: [HttpClientModule, SharedModule],
     }).compileComponents();
   });
 

@@ -1,12 +1,15 @@
 import { TestBed } from '@angular/core/testing';
 
 import { MarketPlaceApiService } from './market-place-api.service';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('MarketPlaceApiService', () => {
   let service: MarketPlaceApiService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [HttpClientModule],
+    });
     service = TestBed.inject(MarketPlaceApiService);
   });
 

@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ResearchPapersComponent } from './research-papers.component';
+import { SharedModule } from '@app/shared';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('ResearchPapersComponent', () => {
   let component: ResearchPapersComponent;
@@ -9,6 +11,7 @@ describe('ResearchPapersComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [ResearchPapersComponent],
+      imports: [SharedModule, HttpClientTestingModule],
     }).compileComponents();
   });
 

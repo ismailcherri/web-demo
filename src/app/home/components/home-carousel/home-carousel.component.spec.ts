@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HomeCarouselComponent } from './home-carousel.component';
+import { SharedModule } from '@app/shared';
 
 describe('HomeCarouselComponent', () => {
   let component: HomeCarouselComponent;
@@ -9,6 +10,7 @@ describe('HomeCarouselComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [HomeCarouselComponent],
+      imports: [SharedModule],
     }).compileComponents();
   });
 

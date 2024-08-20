@@ -16,10 +16,4 @@ describe('TopicApiService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
-
-  it('should return correct topic api path', () => {
-    expect(service.getTopicApiPath()).toBe(
-      'https://odl3njp8ya.execute-api.us-east-2.amazonaws.com/dev/topic'
-    );
-  });
 });

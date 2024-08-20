@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MentoringComponent } from './mentoring.component';
+import { SharedModule } from '@app/shared';
+import { AppRoutingModule } from '@app/app-routing.module';
 
 describe('MentoringComponent', () => {
   let component: MentoringComponent;
@@ -8,6 +10,7 @@ describe('MentoringComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [SharedModule, AppRoutingModule],
       declarations: [MentoringComponent],
     }).compileComponents();
   });

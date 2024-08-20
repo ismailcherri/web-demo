@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CommunityPageComponent } from './community-page.component';
+import { SharedModule } from '@app/shared';
 
 describe('CommunityPageComponent', () => {
   let component: CommunityPageComponent;
@@ -9,6 +10,7 @@ describe('CommunityPageComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [CommunityPageComponent],
+      imports: [SharedModule],
     }).compileComponents();
   });
 

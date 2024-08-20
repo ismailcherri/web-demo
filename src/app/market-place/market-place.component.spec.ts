@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MarketPlaceComponent } from './market-place.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from '@app/shared';
 
 describe('MarketPlaceComponent', () => {
   let component: MarketPlaceComponent;
@@ -9,6 +11,7 @@ describe('MarketPlaceComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [MarketPlaceComponent],
+      imports: [HttpClientModule, SharedModule],
     }).compileComponents();
   });
 
