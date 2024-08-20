@@ -16,7 +16,7 @@
     "build:staging": "ng build --configuration=staging",
     "prettify": "prettier --config ./.prettierrc --write 'src/app/**/*.{js,ts,json,css,scss,html}'",
     "test:headless": "ng test --browsers=ChromeHeadless --reporters=spec",
-    "test:coverage": "ng test --browsers=ChromeHeadless --code-coverage",
+    "test:coverage": "ng test --browsers=ChromeHeadless --code-coverage --watch=false",
     "test:headless:sr": "ng test --browsers=ChromeHeadless --reporters=spec --watch=false"
   },
   "private": true,
